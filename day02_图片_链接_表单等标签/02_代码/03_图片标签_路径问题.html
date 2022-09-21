@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        img 图片标签
+            src 图片的路径
+
+            路径分类
+                1,绝对路径:以盘符开头的路径
+                    E:\00_特训营\day02\02_代码\img\gcd.jpg
+
+                    弊端
+                        只能通过本地的方式打开,不能使用open with live server打开,不推荐这么做
+
+
+                2,相对路径:就是把相对于当前这个html文件的路径的相同部分去掉
+                    图片的绝对路径:      E:\00_特训营\day02\02_代码\img\gcd.jpg
+                    当前html文件绝对路径:E:\00_特训营\day02\02_代码\03_图片标签_路径问题.html
+
+                    将两个绝对路径中相同的部分去掉, 剩下的 img\gcd.jpg 就是相对路径
+                    还有一种写法 ./img/gcd.jpg (./代表当前目录)
+
+
+
+     -->
+
+     <!-- 使用绝对路径展示 -->
+     <!-- <img src="E:\00_特训营\day02\02_代码\img\gcd.jpg" alt=""> -->
+
+     <!-- 使用相对路径展示 -->
+     <img src="img\gcd.jpg" alt="">
+
+     <img src="./img/gcd.jpg" alt=""> <!-- (./代表当前目录) -->
+</body>
+</html>
